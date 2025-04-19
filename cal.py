@@ -2,8 +2,8 @@ import math
 
 while True:
     print("Welcome to the calculator")
-    number1=int(input("Enter number 1  or exit :"))
-    if number1 == 'exit':
+    number1=int(input("Enter number 1  or Enter -0 exit :"))
+    if number1 == -0:
         print("this program is stop")
         break
     else:
@@ -22,3 +22,4 @@ while True:
         else:
             total=number1 / number2
             print(total)
+        print("__________________________________________________________________________")
